@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad70090-c9ee-4fb9-a01c-b38d8fd76d2a" name="Default Changelist" comment="" />
+    <list default="true" id="dad70090-c9ee-4fb9-a01c-b38d8fd76d2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz_Application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz_Application.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dJceIzT6rL7swbAWafgQ1zdaTT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -35,14 +44,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592146729196</updated>
-      <workItem from="1592146737261" duration="1176000" />
+      <workItem from="1592146737261" duration="1927000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="508" y="46" key="CommitChangelistDialog2" timestamp="1592148700197">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592148700197" />
+    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1592148650257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592148650257" />
+    <state x="748" y="396" key="Github.CreateGistDialog" timestamp="1592148642225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="748" y="396" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592148642225" />
     <state x="352" y="77" key="SettingsEditor" timestamp="1592147097534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
