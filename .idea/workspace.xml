@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad70090-c9ee-4fb9-a01c-b38d8fd76d2a" name="Default Changelist" comment="">
+    <list default="true" id="dad70090-c9ee-4fb9-a01c-b38d8fd76d2a" name="Default Changelist" comment="Image and Center Working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Quiz_Application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz_Application.py" afterDir="false" />
     </list>
@@ -32,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Quiz_Application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592146729196</updated>
-      <workItem from="1592146737261" duration="5040000" />
+      <workItem from="1592146737261" duration="8777000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit">
       <created>1592148938969</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592148938969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Image and Center Working">
+      <created>1592152044693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592152044693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,13 +97,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="Image and Center Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image and Center Working" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="508" y="46" key="CommitChangelistDialog2" timestamp="1592148938019">
+    <state x="452" y="94" key="#Deployment" timestamp="1592155674873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592148938019" />
+    <state x="452" y="94" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1592155674873" />
+    <state x="508" y="46" key="CommitChangelistDialog2" timestamp="1592155720199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="46" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1592155720199" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1592152123441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592152123440" />
     <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1592148650257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,32 +121,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="396" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592148642225" />
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1592151511088">
+    <state width="1848" height="268" key="GridCell.Tab.0.bottom" timestamp="1592155764578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592151511088" />
-    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1592151511088">
+    <state width="1848" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592155764578" />
+    <state width="1848" height="268" key="GridCell.Tab.0.center" timestamp="1592155764578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592151511088" />
-    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1592151511088">
+    <state width="1848" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592155764578" />
+    <state width="1848" height="268" key="GridCell.Tab.0.left" timestamp="1592155764578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592151511088" />
-    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1592151511088">
+    <state width="1848" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592155764578" />
+    <state width="1848" height="268" key="GridCell.Tab.0.right" timestamp="1592155764578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592151511088" />
-    <state x="352" y="77" key="SettingsEditor" timestamp="1592147097534">
+    <state width="1848" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592155764578" />
+    <state x="811" y="234" key="RollbackChangesDialog" timestamp="1592153181219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592147097534" />
+    <state x="811" y="234" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592153181219" />
+    <state x="408" y="99" key="SettingsEditor" timestamp="1592155891676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="408" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592155891676" />
+    <state x="904" y="267" key="Vcs.Push.Dialog.v2" timestamp="1592155914190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="904" y="267" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1592155914190" />
     <state x="539" y="5" key="search.everywhere.popup" timestamp="1592150555029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592150555029" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/QuizApp$Quiz_Application.coverage" NAME="Quiz_Application Coverage Results" MODIFIED="1592151511082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QuizApp$Quiz_Application.coverage" NAME="Quiz_Application Coverage Results" MODIFIED="1592155290767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -8,26 +8,20 @@ from PIL import Image, ImageTk  # importing Pillow for Image processing
 class Main:
     def __init__(self, root):
         self.root = root
-        # Importing BG Image
-        image = Image.open('D:\\Users\\HIRANMAY-PC\\Downloads\\img.jpeg')
-        self.copy_of_image = image.copy()
-        photo = ImageTk.PhotoImage(image)
-        self.label = ttk.Label(self.root, image=photo)
-        # Background image resizing
-        self.label.bind('<Configure>', self.resize_image)
-        self.label.pack(fill=BOTH, expand=YES)
-        # Centering the Window
-        self.center()
+        # Setting Background Image in a Canvas
+        self.BG = Canvas(self.root, highlightthickness=0)
+        self.BG.pack(fill=BOTH, expand=1)
+        # Event Checker to resize the Image whenever window size is changed
+        self.BG.bind("<Configure>", self.resize_image)
+        self.img = ImageTk.PhotoImage(Image.open('D:\\Users\\HIRANMAY-PC\\Downloads\\img.jpeg'))
+        self.canvas_img = self.BG.create_image(0, 0, anchor="nw", image=self.img)
 
     def resize_image(self, event):
-        # Getting height and width of resized window
-        new_width = event.width
-        new_height = event.height
-        # Resizing Image
-        image = self.copy_of_image.resize((new_width - 5, new_height - 5))
-        photo = ImageTk.PhotoImage(image)
-        self.label.config(image=photo)
-        self.label.image = photo  # avoid garbage collection
+        photo = Image.open('D:\\Users\\HIRANMAY-PC\\Downloads\\img.jpeg')
+        # Resizing Image using inbuilt Canvas Resize method
+        img = photo.resize((event.width, event.height), Image.ANTIALIAS)
+        self.img = ImageTk.PhotoImage(img)
+        self.BG.itemconfig(self.canvas_img, image=self.img)
 
     def center(self):
         self.root.update_idletasks()
@@ -39,10 +33,16 @@ class Main:
         self.root.geometry('{}x{}+{}+{}'.format(width, height, x, y))
 
 
+class Login(Main):
+    def __init__(self, root):
+        Main.__init__(self, root)
+        self.root.maxsize(400, 400)
+        self.root.title("Hello World")
+        self.f_name = self.BG.create_text((100, 100), text="HELLO NIGGAS", fill="white")
+        self.center()
+
+
 if __name__ == '__main__':
     Login_Window = Tk()
-    Login_Window.title("Title")
-    Login_Window.configure(bg="black")
-    Login_Window.geometry('300x300')
-    Login_Window_Widget = Main(Login_Window)
+    Login_Window_Widget = Login(Login_Window)
     Login_Window.mainloop()
